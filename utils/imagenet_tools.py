@@ -8,6 +8,7 @@ from __future__ import print_function
 from __future__ import unicode_literals
 
 import numpy as np
+import nltk
 from nltk.corpus import wordnet
 import warnings
 from dataset_misc import *

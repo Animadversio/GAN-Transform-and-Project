@@ -155,7 +155,7 @@ class TransformableBasinCMAProjection():
 
         Args:
             im
-                The image you want to ivert.
+                The image you want to invert.
             cls_lbl
                 Integer indicating the class label of the image. If cls_lbl
                 is None, it will use a classifier to predict the class.
@@ -396,7 +396,7 @@ if __name__ == '__main__':
                         default=9,
                         help='Number of seeds to optimize')
     parser.add_argument('--max_batch_size', type=int,
-                        default=9,
+                        default=5,
                         help='Maximum mini-batch size. Need to tune based on ' +
                              'the amount of GPU memory you have. ' +
                              'Rough estimate: GTX1080=6, GTX2080TI=9, V100=18'
